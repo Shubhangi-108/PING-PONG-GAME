@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+#ping , #pong{
+    height: 22px;
+    width: 20vw;
+    border-radius: 11px;
+    background-image: linear-gradient( 45deg, rgb(235, 219, 219) , rgb(7, 7, 185) );
+    position: absolute;
+    left: 40%;
+}
+#pong{
+    bottom: 1%;
+}
+#ping{
+    top: 1%;
+}
+#ball{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(98, 255, 0);
+    border-radius: 15px;
+    position: absolute;
+    left: 47.5%;
+    bottom: 5.05%;
+}
